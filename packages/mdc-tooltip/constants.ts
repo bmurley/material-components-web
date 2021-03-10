@@ -48,6 +48,7 @@ const attributes = {
   ARIA_EXPANDED: 'aria-expanded',
   ARIA_HASPOPUP: 'aria-haspopup',
   PERSISTENT: 'data-mdc-tooltip-persistent',
+  HAS_CARET: 'data-mdc-tooltip-caret',
 };
 
 const events = {

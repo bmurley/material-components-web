@@ -159,6 +159,8 @@ export class MDCTooltipFoundation extends MDCFoundation<MDCTooltipAdapter> {
     this.interactiveTooltip =
         !!this.adapter.getAnchorAttribute(attributes.ARIA_EXPANDED) &&
         this.adapter.getAnchorAttribute(attributes.ARIA_HASPOPUP) === 'dialog';
+    const tooltipCaret =
+        this.adapter.getAttribute(attributes.HAS_CARET) === 'true';
   }
 
   isShown() {
