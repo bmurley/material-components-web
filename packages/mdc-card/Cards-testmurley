@@ -67,3 +67,24 @@
   <base href="/"/>
  </head>
  <body>
+ <mio-root>
+  </mio-root>
+  <script src="/site_meta.js">
+  </script>
+  <noscript>
+   This website requires JavaScript.
+  </noscript>
+  <script src="/static/angular/runtime-es2015.669ca7691790db364632.js" type="module">
+  </script>
+  <script defer="" nomodule="" src="/static/angular/runtime-es5.669ca7691790db364632.js">
+  </script>
+  <script defer="" nomodule="" src="/static/angular/polyfills-es5.9f9626ada526c2254dfe.js">
+  </script>
+  <script src="/static/angular/polyfills-es2015.6a62110fb8e43ce524c4.js" type="module">
+  </script>
+  <script src="/static/angular/main-es2015.8ac3b6740769aa17bebe.js" type="module">
+  </script>
+  <script defer="" nomodule="" src="/static/angular/main-es5.8ac3b6740769aa17bebe.js">
+  </script>
+ </body>
+</html>
